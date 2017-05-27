@@ -6,5 +6,5 @@ link : https://codepen.io
 
 > CSS 
 
-00. 00-Button-Effects
-01. 01-Credit-Card 
+01. 01-Button-Effects
+02. 02-Credit-Card 
