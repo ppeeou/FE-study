@@ -1,10 +1,10 @@
 # FE- Study
 
-### codepen 바탕으로 시작
+## codepen 바탕으로 시작
 
 link : https://codepen.io
 
-> CSS 
+##### CSS 
 
-01. 01-Button-Effects
-02. 02-Credit-Card 
+>01. 01-Button-Effects
+>02. 02-Credit-Card 

@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Credit-Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+
+<body>
+    <div class="helper">
+        <p>Use your mouse or finger to drag the credit card</p>
+    </div>
+
+    <div id="target" class="credit-card">
+        <div class="credit-card__header">
+            <div class="credit-card__header__logo">
+                <img src="src/images/Hyunwoo.png"
+                    alt="Hyunwoo" />
+            </div>
+            <div class="credit-card__header__type credit-card__header__type--maestro"></div>
+        </div>
+        <div class="credit-card__iban">
+            <span>4112</span>
+            <span>1645</span>
+            <span>8236</span>
+            <span>1134</span>
+        </div>
+        <div class="credit-card__valid">
+            <span class="credit-card__valid__label">Valid thru</span>
+            <span class="credit-card__valid__date">06/12</span>
+        </div>
+        <div class="credit-card__owner">
+            <span>Hyunwoo Card</span></div>
+    </div> 
+    <script src='https://unpkg.com/rx@4.1.0/dist/rx.all.min.js'></script>
+    <script src="./dist/main.bundle.js"></script>
+</body>
+
+</html>

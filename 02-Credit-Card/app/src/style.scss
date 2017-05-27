@@ -1,0 +1,136 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono'); 
+@import "bourbon/bourbon"; 
+
+
+$background-color: #3A3A47;
+$color-2: #DF3A62;
+$color-3: #7E57C2;
+
+body {
+  color: white;
+  overflow: hidden;
+  background: $background-color;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  perspective: 10em;
+}
+
+.helper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.credit-card {
+  transition: transform 500ms $ease-out-expo;
+  cursor: move;
+  color: white;
+  width: 20em;
+  font-family: 'Share Tech Mono', monospace;
+  border-radius: 1em;
+  text-align: left;
+  padding: 1em;
+  background: #DF3A62;
+  background: #7E57C2;
+  background: linear-gradient(135deg, $color-2 0%, $color-3 100%);
+  position: absolute;
+  z-index: 10;
+}
+
+.credit-card__header {
+  pointer-events: none;
+  margin: .5em 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credit-card__header__logo {
+  pointer-events: none;
+  display: inline-block;
+  
+  img {
+    width: 4em;
+  }
+}
+
+.credit-card__header__type {
+  pointer-events: none;
+  width: 3em;
+  height: 2em;
+  display: inline-block;
+}
+
+.credit-card__header__type--maestro {
+  position: relative;
+  
+  &:before,
+  &:after {
+    border-radius: 50%;
+    content: '';
+    width: 2em;
+    height: 2em;
+    background: white;
+    position: absolute;
+  }
+  
+  &:before {
+    opacity: 0.75;
+    left: 0;
+  }
+  
+  &:after {
+    opacity: 0.4;
+    right: 0;
+  }
+}
+
+.credit-card__iban {
+  pointer-events: none;
+  margin: 2em 0 0;
+  display: flex;
+  justify-content: space-between;
+  
+  > span {
+    display: block;
+    font-size: 1.8em;
+  }
+}
+
+.credit-card__valid {
+  pointer-events: none;
+  margin: 1em 0 0;
+  display: flex;
+  align-items: center;
+  
+  &__label {
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    height: 2em;
+    width: 3em;
+  }
+  
+  &__date {
+    margin-left: 1em;
+    font-size: 1.2em;
+    display: inline-block;
+  }
+}
+
+.credit-card__owner {
+  pointer-events: none;
+  margin: 1.5em 0 0;
+  > span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+  }
+}
