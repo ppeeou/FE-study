@@ -1,6 +1,6 @@
 # FE- Study
 
-## codepen 바탕으로 시작
+## codepen , template etc..
 
 link : https://codepen.io
 
@@ -13,7 +13,7 @@ link : https://codepen.io
 >05. 05-Basic-Blog-Post
 >06. 06-Blog-Post
 
-##### Web 개발
+## Web 개발
 
 01. font는 15 ~ 25px 로 작성 / head line font 32 , 60 px
 02. 글자간 간격은 150% 이 적합 / 한줄에 글자수는 78글자가 적합
@@ -133,12 +133,12 @@ link : https://codepen.io
 
 08. Resource
 
-Huge list of front-end development resources:
+    Huge list of front-end development resources:
 
-http://github.com/dypsilon/frontend-dev-bookmarks
+    http://github.com/dypsilon/frontend-dev-bookmarks
 
-Curated resources for everything crea.ve:
-http://oozled.com/
+    Curated resources for everything crea.ve:
+    http://oozled.com/
 
 09. 구조
 
@@ -152,8 +152,7 @@ http://oozled.com/
     http://tympanus.net/codrops/css_reference/
 
     Important CSS selectors:
-    http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--
-    net-16048
+    http://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
     Cool things you can do with Google Chrome Developer Tools:
     http://www.labnol.org/sokware/chrome-dev-tools-tutorial/28131/
