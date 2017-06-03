@@ -120,13 +120,13 @@ http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web- de
     - http://daneden.github.io/animate.css/
 * Tool.pster:
     - http://iamceege.github.io/tool.pster/#demos
-
 * Maplace.js, google maps plugin:
     - http://maplacejs.com/
 * OnePageScroll
     - http://www.thepetedesign.com/demos/onepage_scroll_demo.html
 * Favicon Generator. For real. 
     - http://realfavicongenerator.net/
-
 * Compress images:
     - http://op.mizilla.com/
+* Normalize.css
+    - http://necolas.github.io/normalize.css/
