@@ -14,7 +14,10 @@ link : https://codepen.io
 >06. 06-Blog-Post
 
 ## Web 개발
-
+00. MEDIA Query 
+    - 0~ 480px Phone
+    - 480 ~ 768px tablet
+    - 768 ~ 1024px tablet 가로
 01. font는 15 ~ 25px 로 작성 / head line font 32 , 60 px
 02. 글자간 간격은 150% 이 적합 / 한줄에 글자수는 78글자가 적합
 03. font url 
@@ -32,7 +35,7 @@ link : https://codepen.io
     - Learn about colors:
     http://www.rocket-design.fr/color-template/
     - Learn even more about colors:
-http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web- designers--webdesign-1437
+http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web-designers--webdesign-1437
 
 05. Image
     - Basically all free images in one place:
@@ -117,9 +120,7 @@ http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web- de
 * simple and easy-to-use fluid grid:
     - http://www.responsivegridsystem.com/
 * animate
-    - http://daneden.github.io/animate.css/
-* Tool.pster:
-    - http://iamceege.github.io/tool.pster/#demos
+    - http://daneden.github.io/animate.css/ 
 * Maplace.js, google maps plugin:
     - http://maplacejs.com/
 * OnePageScroll
@@ -130,3 +131,27 @@ http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web- de
     - http://op.mizilla.com/
 * Normalize.css
     - http://necolas.github.io/normalize.css/
+* jsdelivr (css IE 8,9,10 )
+    - http://www.jsdelivr.com
+* caniuse (브라우저 기능 지원 확인)
+    - http://caniuse.com
+* Tooltipster
+    - http://iamceege.github.io/tooltipster/#demos
+* Webappers, huge list of plugins:
+    - http://www.webappers.com/category/components/tool.ps/
+* jQuery Rain, another huge list of plugins:
+    - http://www.jqueryrain.com/
+* Magnific popup:
+    - http://dimsemenov.com/plugins/magnific-popup/
+        
+
+### CSS PREFIXES
+```
+Android : -webkit-
+Chrome : -webkit-
+Firefox : -moz
+Internet Explorer : -ms-
+IOS : -webkit-
+Opera : -o-
+Safari : -webkit-
+```
