@@ -56,6 +56,8 @@ http://webdesign.tutsplus.com/ar.cles/an-introduc.on-to-color-theory-for-web-des
     http://mazwai.com/
     - Techniques for working with images in CSS:
     http://css-tricks.com/design-considera.ons-text-images/
+    - People face
+    https://uifaces.com/
 
 06. ICON
     - Beau.ful icon font:
