@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+
+  <style>
+    body{
+      margin:0;
+      padding: 0;
+    }
+    input[required="required"]{
+      background-color: red;
+    }
+    
+    .container > box{
+      background-color: yellow;
+    }
+
+    .box:nth-child(3n+2){
+      background-color: pink;
+    }
+    .box{
+      height: 30px;
+      display: block;
+      border:1px solid black;
+    }
+    
+    .child{
+      width: 40px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container box">
+    <div class="box">
+      <div class="box child"></div>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box">
+      <input type="password" required="required" />
+      <input type="submit" required="required" />
+    </div>
+  </div>
+</body>
+
+</html>
